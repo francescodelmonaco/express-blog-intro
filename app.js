@@ -43,7 +43,7 @@ app.get('/bacheca', (req, res) => {
     res.json(arrayPost)
 });
 
-app.use(express.static("images"));
+app.use(express.static("public"));
 
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`)
